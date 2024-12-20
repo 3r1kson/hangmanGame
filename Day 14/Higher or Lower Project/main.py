@@ -6,7 +6,6 @@ import game_data
 game_over = False
 points = 0
 
-randomA = random.choice(game_data.data)
 while not game_over:
     print(art.logo)
     randomA = random.choice(game_data.data)
